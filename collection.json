@@ -1,0 +1,74 @@
+{
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://example.org/iiif/collection/top",
+  "type": "Collection",
+  "label": { "en": [ "Collection for Example Organization" ] },
+  "summary": { "en": [ "Volckmar, Dialogi" ] },
+  "requiredStatement": {
+    "label": { "en": [ "Attribution" ] },
+    "value": { "en": [ "Provided by Example Organization" ] }
+  },
+
+  "items": [
+    {
+      "id": "https://polona.pl/iiif/item/ODczMzAwMDY/manifest.json",
+      "type": "Manifest",
+      "label": { "en": [ "Hünefeld 1649" ] },
+      "thumbnail": [
+        {
+          "id": "https://zas.bn.org.pl/thumbnail/87487390?uid=87330006",
+          "type": "Image",
+          "format": "image/jpeg"
+        }
+      ]
+    },
+    {
+      "id": "https://polona.pl/iiif/item/MTA2MDgxNDk3/manifest.json",
+      "type": "Manifest",
+      "label": { "en": [ "Rhet 1661" ] },
+      "thumbnail": [
+        {
+          "id": "https://zas.bn.org.pl/thumbnail/106284597?uid=106081497",
+          "type": "Image",
+          "format": "image/jpeg"
+        }
+      ]
+    },
+    {
+      "id": "https://polona.pl/iiif/item/Njk5ODI3Ng/manifest.json",
+      "type": "Manifest",
+      "label": { "en": [ "Rhet 1693" ] },
+      "thumbnail": [
+        {
+          "id": "https://zas.bn.org.pl/thumbnail/87487391?uid=87330006",
+          "type": "Image",
+          "format": "image/jpeg"
+        }
+      ]
+    },
+    {
+      "id": "https://polona.pl/iiif/item/ODczMzAwMTA/manifest.json",
+      "type": "Manifest",
+      "label": { "en": [ "Rhet 1693 (incomplete)" ] },
+      "thumbnail": [
+        {
+          "id": "https://zas.bn.org.pl/thumbnail/6997090?uid=6998276",
+          "type": "Image",
+          "format": "image/jpeg"
+        }
+      ]
+    },
+    {
+      "id": "https://polona.pl/iiif/item/ODczMzAwMTQ/manifest.json",
+      "type": "Manifest",
+      "label": { "en": [ "Schreibers 1758" ] },
+      "thumbnail": [
+        {
+          "id": "https://zas.bn.org.pl/thumbnail/6997095?uid=6998276",
+          "type": "Image",
+          "format": "image/jpeg"
+        }
+      ]
+    }
+  ]
+}
