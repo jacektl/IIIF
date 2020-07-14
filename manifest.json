@@ -5013,18 +5013,24 @@
             "id": "https://example.org/uuid/c87792c5-ca80-4163-822d-f2cf71707d29"
         },
         {
-        	"type": "Annotation",
-        	"motivation": "supplementing",
-	    	"id": "ocr",
-	    	"type": "Annotation",
-	        "target": "https://zas.bn.org.pl/iiif/3776041/3775836.tif/full/full/0/default.jpg#xywh=346,311,1212,172",
-	        "body": {
-	        	"type": "TextualBody",
-	        	"format": "text/plain",
-	        	"chars": "Co po Sykofánciéy ? chcesz mię miáry w żyćiu"
-	        }
-
-        }],
+		  "id": "https://example.org/iiif/aeneid/book1/transcription-line1",
+		  "type": "Annotation",
+		  "textGranularity": "line",
+		  "motivation": ["supplementing"],
+		  "body": {
+		    "type": "TextualBody",
+		    "language": "pl",
+		    "value": "Co po Sykofánciéy ? chcesz mię miáry w żyćiu"
+		   },
+		   "target": {
+		     "type": "SpecificResource",
+		     "source": "https://zas.bn.org.pl/iiif/3776041/3775836.tif",
+		     "selector": {
+		        "type": "FragmentSelector",
+		        "value": "xywh=346,311,1212,172"
+		     }
+		   }
+		}],
         "height": 2304
     },
     {
