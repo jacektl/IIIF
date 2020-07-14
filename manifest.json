@@ -765,7 +765,7 @@
         "items": [
         {
             "type": "AnnotationPage",
-            "annotations": [
+            "items": [
             {
                 "motivation": "painting",
                 "id": "https://zas.bn.org.pl/iiif/3776041/3775263.tif/full/full/0/default.jpg",
