@@ -5020,16 +5020,18 @@
                 {
                 	"id": "https://example.org/iiif/aeneid/book1/transcription-line1",
                     "type": "Annotation",
-                    "motivation": "supplementing",
+                    "textGranularity": "line",
+                    "motivation": ["supplementing"],
                     "body":
                     {
                         "type": "TextualBody",
+                        "language": "pl",
                         "value": "Co po Sykofánciéy ? chcesz mię miáry w żyćiu"
                     },
                     "target":
                     {
                         "type": "SpecificResource",
-                        "source": "https://zas.bn.org.pl/iiif/3776041/3775836.tif/full/full/0/default.jpg",
+                        "source": "https://zas.bn.org.pl/iiif/3776041/3775836.tif/full/full/0/default.jpg#xywh=346,311,1212,172",
                         "selector":
                         {
                             "type": "FragmentSelector",
