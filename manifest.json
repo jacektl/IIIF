@@ -5016,7 +5016,7 @@
             {
                 "id": "https://example.org/iiif/aeneid/book1/transcription-line1",
                 "type": "AnnotationPage",
-                "items": [
+                "annotations": [
                 {
                 	"id": "https://example.org/iiif/aeneid/book1/transcription-line1",
                     "type": "Annotation",
